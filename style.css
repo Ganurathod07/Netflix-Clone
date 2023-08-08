@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 1200px;
+    width: 86%;
+    margin: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    /* background-color: aquamarine; */
+    background: url(./img/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .navbar{
+    
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.header .navbar .logos img{
+    height: 80px;
+}
+.header .navbar .logos{
+    width: 80%;
+    /* background-color: red; */
+}
+.header .navbar .uldiv{
+    width: 20%;
+    /* background-color: rebeccapurple; */
+}
+.header .navbar .uldiv ul .lix{
+    list-style: none;
+    margin-left: 30px;
+
+}
+.header .navbar .uldiv ul{
+    display: flex;
+    margin-top: 15px;
+}
+ul .lix button{
+    padding: 8px;
+    border-radius: 7px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+
+}
+ul .lixx button{
+    /* background-color: red; */
+    font-weight: 600;
+    background-color: rgb(237, 17, 17);
+    border: none;
+}
+.main .maindiv{
+    text-align: center;
+}
+.main{
+    height: 500px;
+    width: auto;
+    padding: 140px;
+}
+.main .maindiv h1{
+    margin: 20px;
+    font-size: 50px;
+}
+.main .maindiv p{
+    margin: 20px;
+    font-size: 25px;
+}
+.main .maindiv .inputxx{
+    padding: 16px;
+    margin: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding-right: 70px;
+    font-size: 15px;
+}
+.main .maindiv .inputx{
+    padding: 16px;
+    margin: 5px;
+    background-color: rgb(237, 17, 17);
+    border: 2px solid rgb(237, 17, 17);
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding-right: 60px;
+    font-size:15px;
+}
